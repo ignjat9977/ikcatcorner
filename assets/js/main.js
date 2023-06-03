@@ -703,7 +703,7 @@ function removeFromCartAll(e){
 }
 function ajaxCallBack(file,callback){
     $.ajax({
-        url:"../data/" + file,
+        url:"./data/" + file,
         method: "get",
         dataType: "json",
         success: function(result){
